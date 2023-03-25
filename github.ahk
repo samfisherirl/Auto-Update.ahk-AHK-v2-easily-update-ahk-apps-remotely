@@ -1,5 +1,6 @@
 ; credit to https://github.com/kurtmckee/ahk_json
-#Include Native.ahk
+; download at the above link
+#Include %A_ScriptDir%\Native.ahk
 
 
 
