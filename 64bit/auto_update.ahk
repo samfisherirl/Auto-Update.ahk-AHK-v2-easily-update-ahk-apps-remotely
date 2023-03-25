@@ -1,6 +1,6 @@
 ﻿; Include the JSON library
 
-;necessary files can be found here: https://github.com/samfisherirl/Auto-Update.ahk-AHKv2_Self-Updating-Application-Lib
+;necessary files can be found here: https://github.com/samfisherirl/Auto-Update.ahk-AHK-v2-easily-update-ahk-apps-remotely
 
 ; Example usage
 ; Create a new instance of the appDictionary class

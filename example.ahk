@@ -3,6 +3,8 @@
 #Include %A_ScriptDir%\64bit\github.ahk
 #Include %A_ScriptDir%\64bit\auto_update.ahk
 
+;necessary files can be found here: https://github.com/samfisherirl/Auto-Update.ahk-AHK-v2-easily-update-ahk-apps-remotely
+
 /*
 This solution does the following:
 - Takes settings for an app (likely for public release) that needs remote updates, ill use "github.ahk" as an example.
