@@ -78,11 +78,17 @@ class defineApp {
 
     checkforUpdate() {
         jdata := this.loadLog()
-        if (jdata) {
+		if (jdata = 1) {
+			return 1
+		}
+        else if (jdata) {
             if (this.version != jdata["version"]) {
-                return jdata
+                return 	
             }
         }
+		else {
+		return False
+		}
     }
     LoadLog() {
         if FileExist(this.logpath) {
@@ -92,7 +98,7 @@ class defineApp {
             return jdata
         } else {
             this.writeJSON()
-            return False
+            return 1
         }
 
     }
