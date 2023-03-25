@@ -14,6 +14,7 @@ This solution does the following:
 - Version data is stored for future use
 
  keep in mind this works but may have an error or two upon various use cases and if reported, I will fix asap. 
+ 
  !Important for now, releases must be in the zip's main directory. I dont have a function to handle zips with the main app in a folder. 
 
 Try, Catch need to be implemented as a code feature (I dont self-referentially update for you so make sure to check the github  for updates ;) 
