@@ -1,4 +1,4 @@
-﻿; Include the JSON library
+; Include the JSON library
 
 ; Example usage
 ; Create a new instance of the appDictionary class
