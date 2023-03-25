@@ -1,4 +1,4 @@
-# AHKv2_Self-Updating-Application-Lib
+# Auto_Update.ahk AHKv2_Self-Updating-Application-Lib
 AHKv2 Self Updating Application Library
 This library is off the back of my github.ahk update, and dive into ahkv2.
 credit to Json Native.ahk creator viewtopic.php?t=100602
