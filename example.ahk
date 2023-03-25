@@ -1,4 +1,4 @@
-
+﻿; this is example.ahk
 #Include %A_ScriptDir%\64bit\Native.ahk
 #Include %A_ScriptDir%\64bit\github.ahk
 #Include %A_ScriptDir%\64bit\auto_update.ahk

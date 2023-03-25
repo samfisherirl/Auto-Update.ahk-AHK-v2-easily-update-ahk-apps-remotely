@@ -1,4 +1,4 @@
-; Include the JSON library
+﻿; Include the JSON library
 
 ; Example usage
 ; Create a new instance of the appDictionary class
@@ -179,7 +179,7 @@ class defineApp {
     }
 
     filechecker(thefile) {
-        loop (20) {
+        loop (50) {
             if fileexist(thefile) {
                 sleep(400)
                 return True
