@@ -1,4 +1,4 @@
-﻿
+
 #Include %A_ScriptDir%\64bit\Native.ahk
 #Include %A_ScriptDir%\64bit\github.ahk
 #Include %A_ScriptDir%\64bit\auto_update.ahk
@@ -30,8 +30,11 @@ myApp.connectGithubAPI()
 
 update := myApp.checkforUpdate()
 
-if (update) {
+if (update = 1) {
+	msgbox("this is your first time running! thanks for using " myApp.repo)
     ;update stores all json data, you can see some details below. Look at "defineApp" class for more details
+	}
+else if (update) {
     msg := update["repo"] . " version number " . update["version"] . " needs an update. Release notes include:`n" . update["releaseNotes"]
     Msgbox(msg)
 
