@@ -80,12 +80,9 @@ class defineApp {
 
     checkforUpdate() {
         jdata := this.loadLog()
-		if (jdata = 1) {
-			return 1
-		}
-        else if (jdata) {
+		if (jdata) {
             if (this.version != jdata["version"]) {
-                return 	
+                return jdata
             }
         }
 		else {
